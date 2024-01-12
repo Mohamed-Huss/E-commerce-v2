@@ -3,7 +3,7 @@ import axios from "axios";
 import Styles from "./Categories.module.css";
 import { Vortex } from "react-loader-spinner";
 import { useQuery } from "react-query";
-import SubCategories from "../SubCategories/SubCategories";
+import SubCategories from "../../Components/SubCategories/SubCategories";
 
 export default function Categories() {
   // const [categories, setCategories]= useState([])
@@ -21,7 +21,6 @@ export default function Categories() {
   // }
 
   const [selectedCategory, setSelectedCategory] = useState(null)
-console.log(selectedCategory)
   function getAllCategories() {
     return axios.get("https://ecommerce.routemisr.com/api/v1/categories");
   }

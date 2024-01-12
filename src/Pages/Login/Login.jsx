@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { Vortex } from "react-loader-spinner";
 import { UserContext } from "../../Context/UserContext";
 export default function Login() {
+  console.log("Login")
   let { setUserToken } = useContext(UserContext);
   let navigate = useNavigate();
   const [error, setError] = useState(null);

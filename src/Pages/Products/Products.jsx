@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import Styles from "./Products.module.css";
 import axios from "axios";
-import Product from "../Product/Product";
+import Product from "../../Components/Product/Product";
 import { Vortex } from "react-loader-spinner";
 import { useQuery } from "react-query";
 
@@ -42,7 +42,6 @@ export default function Products() {
 
   return (
     <>
-      {console.log("Products component rendered")}
       <div className="container">
         {isLoading ? (
           <div

@@ -47,7 +47,7 @@ const{setNumOfCartItems, addToCart} = useContext(cartContext)
     let response = await addToCart(productId)
     setLoading(false)
     if(response.data.status =="success")
-    {console.log(response.data.numOfCartItems)
+    {
    toast.success('Product has been add successfully',{duration:2000, })
    setNumOfCartItems(response.data.numOfCartItems)
     }
@@ -57,7 +57,6 @@ const{setNumOfCartItems, addToCart} = useContext(cartContext)
     }
   
   
-    console.log(response)
   }
 
   function getProductDetails({ id }) {
@@ -74,11 +73,9 @@ const{setNumOfCartItems, addToCart} = useContext(cartContext)
       // refetchInterval:3000
     }
   );
-  console.log(data?.data.data.images);
 
   return (
     <>
-      {/* {console.log(productDetails)} */}
       {isLoading ? (
         <div
           className={`${Styles.loading} d-flex justify-content-center align-items-center`}

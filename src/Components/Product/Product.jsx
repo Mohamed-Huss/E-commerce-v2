@@ -17,22 +17,21 @@ async function addProduct(productId){
   setIsLoading(false)
   if(data?.status =="success")
   {
- toast.success('Product has been add successfully',{duration:2000, })
  setNumOfCartItems(data.numOfCartItems)
+ toast.success('Product has been add successfully',{duration:2000, })
   }
   else
   {
- toast.error('Unexpected error, please try again',{duration:2000, })
+ toast.error('Unexpected error, please refresh or reload the page',{duration:2000, })
   }
 
 
-  console.log(data)
+
 }
 
 
   return (
     <>
-    {console.log('Product component rendered')}
       <div className="col-md-2">
        
           <div className="product cursor-pointer px-2 py-3">

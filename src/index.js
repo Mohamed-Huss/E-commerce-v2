@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { QueryClient, QueryClientProvider } from 'react-query';
 import {ReactQueryDevtools} from 'react-query/devtools'
 
-let queryClient = new QueryClient()
+export let queryClient = new QueryClient()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

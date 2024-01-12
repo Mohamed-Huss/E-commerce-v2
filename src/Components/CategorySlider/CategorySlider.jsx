@@ -4,6 +4,10 @@ import axios from 'axios';
 import Slider from "react-slick";
 import { Vortex } from "react-loader-spinner";
 import { useQuery} from 'react-query';
+import Categories from '../../Pages/Categories/Categories';
+import { Link } from 'react-router-dom';
+
+
 
 export default function CategorySlider() {
 // const [categories, setCategories]= useState([])
@@ -53,8 +57,8 @@ let {isLoading, isError, data, isFetching} = useQuery("allCategories", getAllCat
           </div>
         ) : <> <h5 className="mb-0">Shop popular categories</h5>
           <Slider {...settings} className='p-0 mt-1'>
-{data?.data.data.map((category)=>{return <div key={category._id}><img className="px-0 w-100" height={200} src={category.image}/>
-<h5 className='font-sm text-main mt-1 text-center'>{category.name}</h5></div>})}
+{data?.data.data.map((category)=>{return  <div key={category._id}><img className="px-0 w-100" height={200} src={category.image}/>
+<Link to="/Categories" className='text-decoration-none' ><h5 className='font-sm text-main mt-1 text-center'>{category.name}</h5></Link></div>})}
           </Slider></>}
   
  </>)

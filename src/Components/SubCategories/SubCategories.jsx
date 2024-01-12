@@ -5,7 +5,6 @@ import axios from 'axios';
 import { Vortex } from "react-loader-spinner";
 
 export default function SubCategories({clickedCategory}) {
-console.log(clickedCategory)
   function getSubCategories(categoryId) {
     return axios.get(`https://ecommerce.routemisr.com/api/v1/categories/${categoryId}/subcategories`);
   }
@@ -14,7 +13,6 @@ console.log(clickedCategory)
     ["subCategories",clickedCategory],
     ()=> getSubCategories(clickedCategory.categoryId), {enabled:!!(clickedCategory)}
   );
-console.log(data)
   return <>
  <div className="container">
       {isLoading ? (

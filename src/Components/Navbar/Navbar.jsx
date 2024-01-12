@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Styles from "./Navbar.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../../Assets/images/freshcart-logo.svg";
@@ -9,13 +9,11 @@ export default function Navbar() {
   let Navigate = useNavigate();
   const { userToken, setUserToken } = useContext(UserContext);
   const {numOfCartItems} = useContext(cartContext);
-  console.log(numOfCartItems);
   function logOut() {
     localStorage.removeItem("userToken");
     setUserToken(null);
     Navigate("/Login");
   }
-
   
   return (
     <>{}

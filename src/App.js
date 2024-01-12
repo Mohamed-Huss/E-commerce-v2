@@ -1,21 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 import {RouterProvider, createHashRouter} from "react-router-dom";
-import Layout from "./Components/Layout/Layout";
-import Home from "./Components/Home/Home";
-import Products from "./Components/Products/Products";
-import Cart from "./Components/Cart/Cart";
-import Login from "./Components/Login/Login";
-import Register from "./Components/Register/Register";
-import Categories from "./Components/Categories/Categories";
-import Notfound from "./Components/Notfound/Notfound";
-import ProductDetails from "./Components/ProductDetails/ProductDetails";
+import Layout from "./Pages/Layout/Layout";
+import Home from "./Pages/Home/Home";
+import Products from "./Pages/Products/Products";
+import Cart from "./Pages/Cart/Cart";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
+import Categories from "./Pages/Categories/Categories";
+import Notfound from "./Pages/Notfound/Notfound";
+import ProductDetails from "./Pages/ProductDetails/ProductDetails";
 import {Toaster} from "react-hot-toast";
 import UserContextProvider from './Context/UserContext';
 import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute';
 import CartContextProvider from './Context/CartContext';
-import Address from './Components/Address/Address';
-import Orders from './Components/Orders/Orders';
+import Address from './Pages/Address/Address';
+import Orders from './Pages/Orders/Orders';
 import OrdersContextProvider from './Context/OrdersContext';
 
 const routers= createHashRouter([
