@@ -25,11 +25,11 @@ Integrated Font Awesome for scalable and visually appealing icons, enhancing the
 
 ## 🔧 Tech Stack
 ### Frontend:
-- **React Query: Efficient data fetching for a responsive and real-time user experience.
-- **Context API: State management for consistent application-wide data.
-- **React: The core library for building the user interface.
-- **Bootstrap: Responsive design and styling.
-- **Font Awesome: Scalable and visually appealing icons.
+- React Query: Efficient data fetching for a responsive and real-time user experience.
+- Context API: State management for consistent application-wide data.
+- React: The core library for building the user interface.
+- Bootstrap: Responsive design and styling.
+- Font Awesome: Scalable and visually appealing icons.
 ## 💬 Share Your Feedback
 We value your experience! If you have any feedback, suggestions, or ideas to make FreshCart even better, please don't hesitate to reach out. Your input helps us enhance and refine your online shopping journey.
 
