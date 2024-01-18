@@ -5,22 +5,22 @@ Welcome to FreshCart, your ultimate destination for a seamless and enjoyable onl
 Discover a world of fresh products at your fingertips! From groceries to household items, FreshCart offers a diverse range of high-quality products to meet your needs.
 
 ## 🛠️ Features
-User-Friendly Interface
+### User-Friendly Interface
 Navigate through the app effortlessly with an intuitive and user-friendly design.
 
-Seamless User Experience
+### Seamless User Experience
 Enjoy a smooth flow from browsing products to completing your purchase, making your online shopping experience a breeze.
 
-React Query
+### React Query
 Utilizing React Query for efficient and optimized data fetching, ensuring real-time updates and minimal loading times.
 
-Context API
+### Context API
 Leveraging Context API for state management, providing a consistent and synchronized user experience across the application.
 
-Bootstrap
+### Bootstrap
 Responsive design and styling are achieved through Bootstrap, ensuring a seamless transition between devices.
 
-Font Awesome
+### Font Awesome
 Integrated Font Awesome for scalable and visually appealing icons, enhancing the overall aesthetics of the application.
 
 ## 🔧 Tech Stack
