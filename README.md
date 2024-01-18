@@ -1,10 +1,10 @@
-#FreshCart E-commerce 🛒🌿
+# FreshCart E-commerce 🛒🌿
 Welcome to FreshCart, your ultimate destination for a seamless and enjoyable online shopping experience. Crafted with precision and powered by cutting-edge technologies, FreshCart ensures that your journey through the world of e-commerce is not only smooth but also delightful. This application is built using React Query, Context API, Bootstrap, and Font Awesome to provide you with a modern and responsive e-commerce platform.
 
-##🌐 Explore the Market
+## 🌐 Explore the Market
 Discover a world of fresh products at your fingertips! From groceries to household items, FreshCart offers a diverse range of high-quality products to meet your needs.
 
-##🛠️ Features
+## 🛠️ Features
 User-Friendly Interface
 Navigate through the app effortlessly with an intuitive and user-friendly design.
 
